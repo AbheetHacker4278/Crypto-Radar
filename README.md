@@ -1,4 +1,4 @@
-Crypto Tracker 🪙🚀
+<h1>Crypto Tracker 🪙🚀</h1>
 Overview
 Welcome to Crypto Tracker - your personal tool for tracking the latest cryptocurrency prices, trends, and news. Whether you're an experienced trader or a beginner, Crypto Tracker gives you real-time updates, historical price data, and detailed insights into the world of crypto.
 
