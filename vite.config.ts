@@ -1,7 +1,5 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import { GoogleGenerativeAI } from './path/to/local/generative-ai';
-
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -12,8 +10,8 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: [
-        'node:*',
-        '@google/generative-ai' // Add this line
+        /^node:.*/,  // Exclude all node built-ins
+        '@google/generative-ai'  // Correct external path for GoogleGenerativeAI
       ]
     }
   }
