@@ -7,13 +7,5 @@ export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react'],
-  },
-  build: {
-    rollupOptions: {
-      external: [
-        'node:*',
-        // 'GoogleGenerativeAI' // Add this line
-      ]
-    }
   }
 });
