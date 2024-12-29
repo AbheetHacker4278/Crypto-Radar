@@ -10,7 +10,8 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: [
-        /^node:.*/,
+        'node:*',
+        '@google/generative-ai' // Add this line
       ]
     }
   }
